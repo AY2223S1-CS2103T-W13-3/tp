@@ -3,7 +3,12 @@ package seedu.address.testutil;
 import java.util.HashSet;
 import java.util.Set;
 
-import seedu.address.model.person.*;
+import seedu.address.model.person.Address;
+import seedu.address.model.person.Email;
+import seedu.address.model.person.Name;
+import seedu.address.model.person.Person;
+import seedu.address.model.person.Phone;
+import seedu.address.model.person.Remark;
 import seedu.address.model.tag.Tag;
 import seedu.address.model.util.SampleDataUtil;
 
@@ -80,6 +85,11 @@ public class PersonBuilder {
         return this;
     }
 
+    /**
+     * something
+     * @param remark something
+     * @return something
+     */
     public PersonBuilder withRemark(String remark) {
         this.remark = new Remark(remark);
         return this;
@@ -93,6 +103,10 @@ public class PersonBuilder {
         return this;
     }
 
+    /**
+     * something
+     * @return something
+     */
     public Person build() {
         return new Person(name, phone, email, address, tags, remark);
     }
