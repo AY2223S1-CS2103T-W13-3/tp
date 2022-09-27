@@ -265,7 +265,7 @@ _{Explain here how the data archiving feature will be implemented}_
 * prefers typing to mouse interactions
 * is reasonably comfortable using CLI apps
 
-**Value proposition**:  
+**Value proposition**:
 1. track their debtors
 1. view total money owed from all debtors
 1. manage contacts faster than a typical mouse/GUI driven app
