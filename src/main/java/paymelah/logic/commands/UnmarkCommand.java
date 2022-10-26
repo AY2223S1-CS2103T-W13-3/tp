@@ -22,7 +22,7 @@ import paymelah.model.person.Telegram;
 import paymelah.model.tag.Tag;
 
 /**
- * Unmarks a specific debt of a person identified using their respective displayed
+ * Unmarks specific debts of a person identified using their respective displayed
  * indexes from the address book as paid.
  */
 public class UnmarkCommand extends Command {
